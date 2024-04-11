@@ -5,3 +5,6 @@
     to the list when the user types a task 
     and clicks the 'Add Task' button.
 */
+document.getElementById("taskButton").addEventListener("click", function () {
+  // Add what it should do on click here
+});
