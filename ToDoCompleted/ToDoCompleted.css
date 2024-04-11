@@ -1,0 +1,40 @@
+/*
+    Now, let's make our 
+    to-do list look good. 
+    CSS is used for styling our 
+    web pages. We'll add some
+    simple styles to our app, 
+    like centering our content and
+    styling our task list.
+*/
+body, #app {
+ display:flex;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 20px;
+}
+
+#taskInput {
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid pink;
+    margin-bottom: 20px;
+    width:300px;
+}
+
+#taskButton {
+  border-radius: 5px;
+  background-color:pink;
+  border: none;
+  padding:10px;
+  cursor:pointer;
+}
+
+#taskList li {
+    list-style: none;
+    margin: 5px 0;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
