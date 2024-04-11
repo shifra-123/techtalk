@@ -7,16 +7,16 @@
     like centering our content and
     styling our task list.
 */
-body, #app {
- 
+body {
+
 }
 
 #taskInput {
-
+ 
 }
 
 #taskButton {
-  
+   
 }
 
 #taskList li {
